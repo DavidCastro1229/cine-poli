@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix client && npm run build --prefix client && rm -rf client/node_modules",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "David Castro",
